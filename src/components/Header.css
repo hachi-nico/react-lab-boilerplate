@@ -1,0 +1,21 @@
+.headerLogo {
+  height: 20vmin;
+  pointer-events: none;
+  animation: headerLogo-spin infinite 20s linear;
+}
+
+.header {
+  background-color: #282c34;
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+
+@keyframes headerLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
